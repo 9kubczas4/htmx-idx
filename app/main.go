@@ -33,6 +33,6 @@ func main() {
 		fmt.Fprint(w, "Hello World - loaded via htmx!")
 	})
 
-	fmt.Println("Server is running on http://localhost:8080")
-	http.ListenAndServe(":8080", nil)
+	fmt.Println("Server is running on http://localhost:9000")
+	http.ListenAndServe(":9000", nil)
 }
