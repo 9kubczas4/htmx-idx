@@ -1,0 +1,8 @@
+{
+  "name": "htmx",
+  "description": "Start a simple HTMX app with go backend",
+  "categories": ["Web app"],
+  "icon": "https://foo.svg",
+  "publisher": {},
+  "params": []
+}
