@@ -4,12 +4,15 @@
   "description": "Hello World using node, express and HTMX.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
     "htmx": "^0.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
   }
 }
