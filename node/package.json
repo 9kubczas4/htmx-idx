@@ -1,0 +1,15 @@
+{
+  "name": "node-htmx",
+  "version": "1.0.0",
+  "description": "Hello World using node, express and HTMX.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "htmx": "^0.0.2"
+  }
+}

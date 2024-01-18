@@ -6,6 +6,8 @@
   packages = [
     pkgs.go
   ];
+  # Sets environment variables in the workspace
+  env = { };
   # search for the extension on https://open-vsx.org/ and use "publisher.id"
   idx.extensions = [
     "golang.go"

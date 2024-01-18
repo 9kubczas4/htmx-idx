@@ -4,5 +4,16 @@
   "categories": ["Web app"],
   "icon": "https://foo.svg",
   "publisher": "",
-  "params": []
+  "params": [
+    {
+      "id": "backend",
+      "name": "Select backend",
+      "type": "enum",
+      "default": "go",
+      "options": {
+        "go": "go",
+        "node": "node"
+      }
+    }
+  ]
 }
